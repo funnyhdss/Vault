@@ -1,0 +1,75 @@
+body {
+    background: url(vault_background.png) no-repeat center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form{
+ 
+    justify-content: space-around;
+    width: calc(100% - 22px);
+    padding: 20px;
+    margin-bottom: 1px;
+    border: 2px solid #23207b;
+    border-radius: 5px;
+    height: 175px;
+    justify-content: center;
+}
+
+div {
+    background-color: #ebec9f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 70%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 10px;
+    height: 30%;
+}
+
+.login input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;    
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    background-color: #fff;
+    color: #ebec9f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#botao {
+    margin-top: 30px;
+    color: 281c90;
+    background-color: #5d52ba;
+}
+
+p {
+    color: #23207b;
+}
+
+a {
+
+color: #23207b;
+
+}
